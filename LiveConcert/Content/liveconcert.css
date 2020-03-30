@@ -1,0 +1,87 @@
+﻿body {
+    background-image: url('../Images/stars-nayme-2.jpg');
+}
+.loginandsign {
+    margin-top: 10%;
+    margin-left: 37%;
+    color: white;
+    border: 2px solid white;
+    padding: 3%;
+    border-radius: 3%;
+}
+.user-img{
+    width:50px;
+    height:50px;
+    border-radius:30px;
+}
+.navbar-bg {
+    border: 1px dotted #FFC107;
+    background-color: #FFC107;
+}
+    .navbar-bg:hover {
+        background-image: url('../Images/stars-nayme-2.jpg');
+    }
+.a:hover {
+    background-color: antiquewhite;
+    color: white;
+}
+.a{
+    color: black;
+}
+.div-body {
+    border: 1px dotted #FFC107;
+    width: 60%;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p{
+    color:white;
+    text-align: center;
+    opacity: 1;
+}
+.userName{
+    color:black;
+}
+.hrnew {
+    border-top: 1px dotted #FFC107;
+    width: 60%;
+}
+.singerImg {
+    width: 200px;
+    height: 150px;
+    border: 1px dotted #FFC107;
+}
+.paymentDiv {
+    border: 1px dotted #FFC107;
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.giveConcertDiv {
+    height: 250px;
+    width: 300px;
+    border: 1px dotted #FFC107;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.streetAnimal {
+    z-index: 1;
+    border: 1px dotted #FFC107;
+    width: 50%;
+    height: 600px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../Images/streetAnimals.jfif");
+}
+.opacitySetting {
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border-radius: 15px;
+}

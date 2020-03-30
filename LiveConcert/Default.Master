@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="LiveConcert.Default1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    <title>Live Concert</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/liveconcert.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <div>
+        <nav class="navbar fixed-top navbar-bg"> 
+            <div class="container">
+
+                <div class="mr-auto">
+                    <a href="Default.aspx" class="a"><h4><b>MainPage</b></h4></a>
+                </div>
+                <div class="mt-auto mr-4">
+                        <a href="FreeTicket.aspx" class="a"><p><b>Free Ticket</b></p></a>
+                </div>
+                <div class="mt-auto mr-3">
+                    <a href="GiveConcert.aspx" class="a"><p><b>Give Concert</b></p></a>
+                </div>
+                <div class="mt-auto mr-3">
+                    <a href="AllPayment.aspx" class="a"><p><b>All Payment</b></p></a>
+                </div>
+                <div class="float-right">
+                    <img class="user-img" src="Images/nayme.png" />
+                    <asp:Label ID="userName" runat="server" CssClass="userName" Text="Naime Akgün"></asp:Label>
+                </div>
+            </div>
+        </nav> 
+    </div>
+    <asp:ContentPlaceHolder ID="body" runat="server">
+
+    </asp:ContentPlaceHolder>
+   <footer class="page-footer font-small pt-4">
+          <div class="footer-copyright text-center py-3 p">© 2020 Copyright:
+            <a href="https://web.itu.edu.tr/akgunn17" class="p">Naime Akgün</a>
+          </div>
+   </footer>
+</body>
+</html>
